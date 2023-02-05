@@ -1,0 +1,138 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 10px;
+  align-items: center;
+}
+
+.header-logo {
+  height: 50px;
+}
+
+#nav {
+  list-style: none;
+  display: flex;
+
+}
+
+#nav li {
+  width: 70px;
+  text-align: center;
+
+}
+
+#nav li a {
+  text-decoration: none;
+  color: gray;
+}
+
+.main_top {
+  position: relative;
+}
+
+/* トップ */
+img.main_top_image {
+  display: block;
+  width: 50vw;
+  margin-right: 0px;
+  margin-left: auto;
+}
+
+.main_top_message {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+
+}
+
+h2.main_top_massage_upper {
+  font-size: 50px;
+  font-family: 'Indie Flower';
+  color: darkmagenta;
+}
+
+#message_upper {
+ color: aqua;
+
+}
+
+.main_top_message_bottom {
+  margin-top: 30px;
+
+}
+
+.main_top_massage_bottom_text {
+  font-size: 30px;
+  color: darkmagenta;
+
+}
+
+#message_bottom {
+  color: aqua;
+
+}
+
+.main_top_message_bottom_text_2 {
+  margin-top: 10px;
+  color: gray;
+
+}
+
+/* ニュース */
+.main_news {
+  padding: 50px 200px;
+
+}
+
+.news_ttl_en {
+  font-family: 'Indie Flower';
+  color: darkmagenta;
+  margin: 5px;
+
+}
+
+.news_ttl_ja {
+  color: gray;
+  font-size: 20px;
+  margin: 5px;
+
+}
+
+.news_hr {
+  border: 1px solid gray;
+  margin: 5px;
+}
+
+ul.news_list {
+  list-style: none;
+  display: flex;
+}
+
+li.news_row :first-child {
+  border-bottom: 1px solid gray;
+}
+
+.row_box {
+
+}
+
+.news_date {
+  display: inline-block;
+  margin-right: 5px;
+
+}
+
+.news_icon {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.news_text {
+  display: inline-block;
+  text-decoration: none;
+}
+
+a.news_link {
+  text-decoration: none;
+}
+
